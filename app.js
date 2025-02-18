@@ -1,5 +1,5 @@
 alert("Boas vindas ao jogo do numero secreto!");  //exibir uma mensagem
-let numeroMaximo = 50;
+let numeroMaximo = 100;
 let numeroSecreto = parseInt(Math.random() * numeroMaximo + 1); //armazenar o numero na variavel e gerar um numero aleatorio a ser sortiado
 console.log(numeroSecreto) //Exibir no console 
 let chute //armazena e interagi com o usuario
